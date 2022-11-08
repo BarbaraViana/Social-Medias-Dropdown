@@ -1,0 +1,38 @@
+:root {
+    --black: black;
+    --testao: #73c1ba;
+    --testinho: #e6e6e6;
+    --cinzaBom: #282828
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cinzaBom)
+}
+
+details {
+    border: 4px solid;
+    background-color: var(--black);
+}
+
+summary {
+    color: var(--testao);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    color: var(--testinho);
+}
